@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.RegisterFragment">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/inputtext"
+        android:gravity="center_horizontal"
+        android:hint="Nom"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/prenom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/motdepasse"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/inputtext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Mot de passe"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="230dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/inputtext"
+        android:gravity="center_horizontal"
+        android:hint="Mail"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/numtel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/numtel"
+        android:layout_width="235dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/inputtext"
+        android:gravity="center_horizontal"
+        android:hint="Numero de telephone"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/motdepasse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="233dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/inputtext"
+        android:gravity="center_horizontal"
+        android:hint="Prenom"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Ajouter"
+        android:layout_width="194dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/submit"
+        android:text="S'inscrire"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

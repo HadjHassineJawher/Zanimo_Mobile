@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".Controller.AddPostFragment">
+
+    <TextView
+        android:id="@+id/AjouterAnnonceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Ajouter Une Annonce "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/AnimalImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir une Image " />
+
+    <EditText
+        android:id="@+id/PostDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir une Date" />
+
+    <EditText
+        android:id="@+id/PostDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir une Description" />
+
+    <EditText
+        android:id="@+id/DateExpiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir une Date d'Expiration" />
+
+    <EditText
+        android:id="@+id/GenreAnimale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir Le Genre Animale" />
+
+    <EditText
+        android:id="@+id/TypeAnimale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir Le Type Animale" />
+
+    <EditText
+        android:id="@+id/TypePost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Saisir Le Type de Post " />
+
+    <Button
+        android:id="@+id/btn_AddPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ajouter Publication" />
+
+</LinearLayout>
